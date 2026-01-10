@@ -10,3 +10,4 @@ def test_sub():
     assert sub(3,3) ==0
 def test_mul():
     assert mul(2,1)==1
+    assert mul(3,1) == 3
