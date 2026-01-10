@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 pandas
 pytest
 
+=======
+pytest
+pandas
+>>>>>>> b16aef234aae9e81de9cf21aae7a64a79a716168
