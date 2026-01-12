@@ -5,3 +5,5 @@ this is a simple caculator application
 - subtraction 
 ## purpose 
 this project  is basically to pratice , git , Git hub  and CI using git Actions . 
+
+### feature update on read me file"
