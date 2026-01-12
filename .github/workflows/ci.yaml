@@ -22,6 +22,10 @@ jobs:
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+      - name: download test reports
+        uses: actions/download-artifact@v4
+        with:
+            name : test-report
 
       - name: Install dependencies
         run: pip install -r requirements.txt
