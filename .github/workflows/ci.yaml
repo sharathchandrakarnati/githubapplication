@@ -26,6 +26,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
             name : test-report
+            path : test-report.xml
 
       - name: Install dependencies
         run: pip install -r requirements.txt
